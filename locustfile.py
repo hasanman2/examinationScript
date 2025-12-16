@@ -6,9 +6,9 @@ import gevent
 from gevent.lock import Semaphore
 
 # ====== Testing Parameters ======
-QUIZ_CMID = 3        # e.g. /mod/quiz/view.php?id=17
-NUM_PAGES = 20         # how many pages your quiz has
-QUIZ_START_DELAY = 5  # 5 minutes = 300 seconds
+QUIZ_CMID = 3     
+NUM_PAGES = 20      
+QUIZ_START_DELAY = 5 
 # ==========================
 
 _quiz_start_time = None
